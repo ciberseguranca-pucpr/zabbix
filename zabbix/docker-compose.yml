@@ -14,7 +14,7 @@ services:
       - zabbix-network
     
   zabbix-server:
-    name: zabbix-server
+    container_name: zabbix-server
     build:
       context: .
       dockerfile: Dockerfile.zabbix
