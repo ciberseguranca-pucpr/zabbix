@@ -1,0 +1,3 @@
+FROM zabbix/zabbix-server-mysql
+
+RUN echo "DBHost=mysql\nDBName=zabbix\nDBUser=zabbix\nDBPassword=password" >> /etc/zabbix/zabbix_server.conf
